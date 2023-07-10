@@ -1,0 +1,18 @@
+
+server:
+  port: 8000
+
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+oauth2:
+  google:
+    client-id:
+    client-secret:
+    redirect-uri: http://localhost:8000/login/oauth2/code/google
+    token-uri: https://oauth2.googleapis.com/token
+    login-url: https://accounts.google.com
+    auth-url: https://oauth2.googleapis.com
+    scopes: profile,email,openid
+
