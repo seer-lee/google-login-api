@@ -1,4 +1,4 @@
-package com.feignApi;
+package com.googleLoginApi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
